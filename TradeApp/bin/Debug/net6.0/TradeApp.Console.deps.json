@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TradeApp.Console/1.0.0": {
+        "dependencies": {
+          "TradeApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TradeApp.Console.dll": {}
+        }
+      },
+      "TradeApp.Domain/1.0.0": {
+        "runtime": {
+          "TradeApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TradeApp.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TradeApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
